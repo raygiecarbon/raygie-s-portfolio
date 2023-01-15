@@ -555,7 +555,7 @@ section {
 /*- About --*/
 @media (max-width: 992px) {}
 .about{
-  background-image: url(/assets/img/background/jez.jpg);
+  background-image: url(/assets/img/background/smokes.gif);
   background-size: cover;
 }
 .about h2{
@@ -568,7 +568,7 @@ section {
   margin-top: -60px;
   border-radius: 15px;
   height: 90%;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .about p{
   color: #a8d0af;
@@ -582,14 +582,15 @@ section {
   list-style: none;
   font-size: 18px;
 }
-.about .content ul strong{
-  color: #FFB100;
+.about .content ul strong {
+  color: #f62256;
   font-weight: 600;
+  font-family: 'Poppins';
 }
 
 .about .content ul li {
   padding-bottom: 10px;
-  color: green;
+  color: #c4bcc7;
   font-weight:600;
 }
 
@@ -614,24 +615,23 @@ section {
 }
 
 /*- Family --*/
-/*--------------------------------------------------------------
-# Our Team Section
---------------------------------------------------------------*/
 .team{
-  background: #1d1f28e0;
+  background: #5f363d;
 }
 .team h2{
-  color: #0edcdb;
+  color: #f62256;
   text-align: center;
   margin-bottom: 5%;
+  font-weight: 600;
+  font-size: 40px;
 }
 .team .member {
   text-align: center;
-  background: #1f84cb91;
+  background: #dc3545d9;
   border-radius: 10px;
   padding: 15px;
   overflow: hidden;
-  box-shadow: -10px 14px 25px rgb(39 177 67 / 68%);
+  box-shadow: -10px 10px 25px rgb(31 124 82 / 68%);
 }
 
 .team .member img {
@@ -694,7 +694,7 @@ section {
 .team .member .social i {
   font-size: 18px;
   margin: 0 2px;
-  color: #092a9c;
+  color: #58e7f2;
 }
 
 
@@ -707,14 +707,17 @@ section {
   background-image: url(/assets/img/background/nice1.gif);
   background-size: cover;
 }
-.skills p{
-  color: #a8d0af;
+.skills h1{
+  color: #FF597B;
   font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
 } 
 .skills h2{
-  color:#18d26e;
-  text-shadow: -14px 13px 2px #28723e80;
-  margin-top: 8%;
+  color: #f62256;
+  margin-top: 4%;
+  font-family: 'Poppins';
+  font-size: 50px
 }
 .skills .progress {
   height: 60px;
@@ -740,7 +743,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #3184838c;;
+  background: #498c6a;
 }
 
 .skills .progress-bar {
@@ -758,20 +761,21 @@ section {
   background-size: cover;
 }
 .services h2{
-  color:#18d26e;
-  text-shadow: -14px 13px 2px #28723e80;
+  color: #f62256;
+    margin-top: 4%;
+    font-family: 'Poppins';
+    font-size: 50px
 }
-.services p{
+.services h1{
   color: #a8d0af;
   font-family: 'Poppins';
+  font-size: 16px;
 }
-
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #408373;
-  box-shadow:-9px 6px 35px 0 rgb(104 37 164);
+  background: #312940f2;
   width: 100vh;
   height: 95%;
   border-radius: 10px;
@@ -809,6 +813,7 @@ section {
   font-size: 14px;
   margin-bottom: -40px;
   margin-top: 60px;
+  color: #C69749  ;
 }
 
 
@@ -820,8 +825,10 @@ section {
 
 }
 .contact h2{
-  color:#18d26e;
-  text-shadow: -14px 13px 2px #28723e80;
+  color: #f62256;
+  margin-top: 4%;
+  font-family: 'Poppins';
+  font-size: 50px
 }
 .contact p{
   color: #a8d0af;
@@ -851,14 +858,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color:#0075ff;
+  color:#FFD369;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #15de8bcc;
+  color: #FFD700;
 }
 
 .contact .info .email,
@@ -981,12 +988,12 @@ section {
 
 /*- Footer --*/
 #footer {
-  background: #197c7f5c;
+  background: #632624;
   padding: 30px 0;
-  color: #222222;
+  color: #21E6C1;
   font-size: 14px;
   text-align: center;
 }
-.footer span{
-  color: #18d26e;
+.credits span{
+  color: #d25f18;
 }
