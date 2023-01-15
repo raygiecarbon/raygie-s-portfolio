@@ -599,6 +599,16 @@ section {
   margin-bottom: 0;
 }
 
+
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover>ul {
+    left: -100%;
+  }
+}
 /*- Family --*/
 /*--------------------------------------------------------------
 # Our Team Section
